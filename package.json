@@ -1,0 +1,10 @@
+{
+  "name": "zabava-web-01",
+  "version": "1.0.0",
+  "description": "Забава — свято на повну! Промо-сайт дитячого розважального центру",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"const fs=require('fs');['dist','build','public'].forEach(d=>{fs.mkdirSync(d+'/assets',{recursive:true});['index.html','style.css','brand.css','refresh.css','app.js','motion.js','zabava-v2-full.html'].forEach(f=>fs.existsSync(f)&&fs.copyFileSync(f,d+'/'+f));fs.readdirSync('assets').forEach(f=>fs.copyFileSync('assets/'+f,d+'/assets/'+f));});console.log('Static build complete');\"",
+    "start": "node server.js"
+  }
+}
