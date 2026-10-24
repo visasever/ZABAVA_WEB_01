@@ -1,0 +1,21 @@
+/* Brandbook RGB palette. White and translucent black are interface neutrals. */
+:root{--ink:#000000;--aqua:#26cad3;--mint:#b1e3e3;--red:#ff3a1e;--yellow:#f8ea47;--pink:#ff8189;--purple:#675dc6;--cream:#ffffff}
+.concept{background:var(--aqua);color:var(--ink)}.concept span{color:var(--ink)}
+.intro h2 span{color:var(--ink)}.intro .eyebrow,.section-top .eyebrow{color:var(--ink)}
+.intro p,.section-top p,.adventure p,.other,.fine,.service small,.package .num,.package details p,.faq>div>p{color:var(--ink)}
+.package details,.faq details,.service{border-color:#00000022}
+.adventure,.package{box-shadow:0 8px 28px #0000000d}.package:hover{box-shadow:0 18px 36px #0000001a}
+.packages{background:var(--mint)}.package{background:#ffffff}.package:nth-child(2){background:#ffffff}
+.planner,.steps{background:var(--aqua);color:var(--ink)}.planner label,.planner p,.steps-grid p,.steps .eyebrow{color:var(--ink)}
+.estimate strong,.steps-grid article>span{color:var(--ink)}.steps-grid article{border-color:#00000044}
+.planner input,.planner select{border-color:#00000044;background:#ffffff}
+.service b{color:var(--ink)}.filters button{background:var(--mint)}.filters .active{background:var(--ink);color:#ffffff}
+.art-party{background:var(--pink);color:var(--ink)}.art-quest{background:var(--aqua);color:var(--ink)}.art-make{background:var(--yellow);color:var(--ink)}
+.card-art span{color:#ffffff80}.gallery-brand{background:var(--yellow)}.gallery h2 em,.gallery-brand>i{color:var(--purple)}
+.visit{background:var(--mint)}.visit-art{background:var(--aqua)}.visit-art b{color:var(--red)}.visit .fine{color:var(--ink)}
+.button:hover{background:#000000;box-shadow:0 6px 18px #00000022}.hero .button:hover,.planner .button:hover,.steps .button:hover{background:var(--yellow);color:var(--ink)}
+.hero-shade{background:linear-gradient(90deg,#000000e6,#00000099 35%,#00000000 78%)}
+.hero{background:var(--aqua)}.hero h1 span{color:var(--pink)}.hero h1 em{color:var(--yellow)}
+.hero-tag{background:#00000022;border-color:#ffffff66}.hero-bottom,.hero p,.photo-note,.play-button{color:#ffffff}
+.button:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline-color:var(--purple)}
+@media(max-width:760px){.hero-shade{background:linear-gradient(90deg,#000000d9,#00000099 65%,#00000055)}}
