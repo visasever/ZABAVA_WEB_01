@@ -1,5 +1,5 @@
 /* Brandbook RGB palette. White and translucent black are interface neutrals. */
-:root{--ink:#000000;--aqua:#26cad3;--mint:#b1e3e3;--red:#ff3a1e;--yellow:#f8ea47;--pink:#ff8189;--purple:#675dc6;--cream:#ffffff}
+:root{--ink:#000000;--aqua:#26cad3;--mint:#b1e3e3;--red:#ff3a1e;--yellow:#f8ea47;--pink:#ff8189;--purple:#675dc6;--cream:#ffffff;--font-brand:'Alegreya Sans SC','Myriad Pro',sans-serif;--font-body:'Myriad Pro','Myriad Web Pro','Source Sans 3',Arial,sans-serif}body{font-family:var(--font-body)}h1,h2,h3,.ticker,.card-art b,.visit-art,.price,.estimate strong,.phone,.steps-grid article>span,.eyebrow,.hero-tag{font-family:var(--font-brand)}h1,h2,h3{letter-spacing:-.01em;font-weight:900}.hero h1{letter-spacing:-.02em;font-weight:900}.hero h1 em,.gallery h2 em{font-style:italic}
 .concept{background:var(--aqua);color:var(--ink)}.concept span{color:var(--ink)}
 .intro h2 span{color:var(--ink)}.intro .eyebrow,.section-top .eyebrow{color:var(--ink)}
 .intro p,.section-top p,.adventure p,.other,.fine,.service small,.package .num,.package details p,.faq>div>p{color:var(--ink)}
