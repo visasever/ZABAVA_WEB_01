@@ -13,7 +13,7 @@
 .art-party{background:var(--pink);color:var(--ink)}.art-quest{background:var(--aqua);color:var(--ink)}.art-make{background:var(--yellow);color:var(--ink)}
 .card-art span{color:#ffffff80}.gallery-brand{background:var(--yellow)}.gallery h2 em,.gallery-brand>i{color:var(--purple)}
 .visit{background:var(--mint)}.visit-art{background:var(--aqua);padding:28px 20px;gap:10px}.visit-mascot{width:min(240px,72%);height:auto;object-fit:contain;display:block;filter:drop-shadow(0 10px 18px #00000022)}.visit-art b{color:var(--red)}.visit .fine{color:var(--ink)}
-.button:hover{background:#000000;color:#ffffff;box-shadow:0 6px 18px #00000022}.package .button:hover{background:var(--ink);color:#ffffff}.package:nth-child(2) .button:hover{background:var(--purple);border-color:var(--purple);color:#ffffff}.hero .button:hover,.planner .button:hover,.steps .button:hover{background:var(--yellow);color:var(--ink)}
+.button:hover{background:#000000;color:#ffffff;box-shadow:0 6px 18px #00000022}.package:nth-child(2) .button{background:transparent;color:var(--ink)}.package .button:hover,.package:nth-child(2) .button:hover{background:var(--ink);border-color:var(--ink);color:#ffffff}.hero .button:hover,.planner .button:hover,.steps .button:hover{background:var(--yellow);color:var(--ink)}
 .hero-shade{background:linear-gradient(90deg,#000000e6,#00000099 35%,#00000000 78%)}
 .hero{background:var(--aqua)}.hero h1 span{color:var(--pink)}.hero h1 em{color:var(--yellow)}
 .hero-tag{background:#00000022;border-color:#ffffff66}.hero-bottom,.hero p,.photo-note,.play-button{color:#ffffff}
